@@ -5,6 +5,7 @@
     <title>Axit</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
@@ -71,21 +72,41 @@
     <div id="content-top">
         <div class="container">
             <ul class="content-top-left">
-                <li class="tab1"><a href="">TAB1</a></li>
-                <li><a href="">TAB2</a></li>
-                <li class="tab3"><a href="">TAB3</a></li>
+                <!--<li class="tab1"><a href="">TAB1</a></li>-->
+                <!--<li><a href="">TAB2</a></li>-->
+                <!--<li class="tab3"><a href="">TAB3</a></li>-->
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">TAB 1</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-profile" aria-selected="false">TAB 2</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-messages" aria-selected="false">TAB 3</a>
+                </div>
             </ul>
             <div class="content-top-center">
-                <h5><b>Tabs with soft transitioning effect.</b></h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
-                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br>
-                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br>
-                    penatibus et magnis dis parturient montes.
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
-                    bibendum laoreet.
-                </p>
-                <button>Download</button>
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active1" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <h5><b>Tabs with soft transitioning effect.</b></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br>
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br>
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
+                            bibendum laoreet.
+                        </p>
+                        <button>Download</button>
+                    </div>
+
+                </div>
+                <!--<h5><b>Tabs with soft transitioning effect.</b></h5>-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>-->
+                    <!--bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br>-->
+                    <!--justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br>-->
+                    <!--penatibus et magnis dis parturient montes.-->
+                <!--</p>-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>-->
+                    <!--bibendum laoreet.-->
+                <!--</p>-->
+                <!--<button>Download</button>-->
             </div>
             <div class="content-top-right">
                 <img src="assets/image/ct11.jpg" >
@@ -161,7 +182,7 @@
             <p>Lorem ispum dolor sit amet consectetur adipscing elit. </p>
             <div class="content-section3-left">
                 <div><i class="far fa-lightbulb"></i></div>
-                <h5>Thoughtful Design</h6>
+                <h5>Thoughtful Design</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
                     elit.Aenean euismod bibendum laoreet. Proin gravida<br>
                     dolorsit amet lacus accumsan et viverra
@@ -220,7 +241,7 @@
                 <div class="payment"><i>Monthly Payment</i></div>
                 <div class="space">UNLIMTED SPACE</div>
                 <div class="space">UNLIMTED BANDWIDTH</div>
-                <div class="space">100 WWEBSITES</div>
+                <div class="space">100 WEBSITES</div>
                 <div class="space">ADVANCED CUTOMIZATION</div>
                 <div class="space">WORDPRESS INTEGRATION</div>
                 <div class="space">24/7 CUSTOMER SUPPORT</div>
